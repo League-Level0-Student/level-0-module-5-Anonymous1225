@@ -8,17 +8,21 @@ import org.jointheleague.graphical.robot.Robot;
 public class Snowflake {
 	
 	public static void main(String[] args) {
-
+		int e = 1;
+		int d = 72;
 		// #1. Make a new Robot
 		Robot rob=new Robot(); 
-		rob.setX(300);
-		rob.setY(300);
+		rob.setX(500);
+		rob.setY(200);
 		rob.penDown();
-		rob.setSpeed(5);
+		rob.setSpeed(200);
 		rob.setPenColor(255,0,0);
-		for (int i=0; i<24; i+=1) {
-			rob.move(50);
-			rob.turn(15);
+		for (int i=0; i<112; i+=1) {
+			rob.move(e);
+			rob.turn(d);
+			e+=2;
+			
+			System.out.println(i);
 			if (i%2==0) {
 				rob.setPenColor(0,0,255);
 			}
