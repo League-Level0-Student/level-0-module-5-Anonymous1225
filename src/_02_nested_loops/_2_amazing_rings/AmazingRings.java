@@ -59,7 +59,7 @@ public class AmazingRings extends PApplet {
     	noFill();
     	ellipse(200,200,200,200);
     	while (x<150) {
-    		ellipse(205+x*speed,200+x*x/2,200,200);
+    		ellipse(205+x*speed,200+x,200,200);
     		ellipse(210+x*speed,200,200,200);
     		x+=1;
     		if (205+x*speed>900) {
