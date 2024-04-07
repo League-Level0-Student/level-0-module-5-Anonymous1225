@@ -41,7 +41,6 @@ public class HappyPet {
 				int awww= JOptionPane.showOptionDialog(null,"Anything you'd like to do?", "Title", 0, JOptionPane.INFORMATION_MESSAGE, null,
 						new String[] {"Pet", "Walk","Feed", "Cuddle"}, null);
 					if (awww==0) {
-						JOptionPane.showMessageDialog(null, "Squeak");
 						level+=1.2;
 					}
 					if (awww==1) {
@@ -114,7 +113,6 @@ public class HappyPet {
 				int awww= JOptionPane.showOptionDialog(null,"Anything you'd like to do?", "Title", 0, JOptionPane.INFORMATION_MESSAGE, null,
 					new String[] {"Pet", "Walk","Feed", "Cuddle"}, null);
 				if (awww==0) {
-					JOptionPane.showMessageDialog(null, "Squeak");
 					level+=1.2;
 				}
 				if (awww==1) {
@@ -125,6 +123,134 @@ public class HappyPet {
 				}
 				if (awww==3) {
 					level+=4;
+				}
+				JOptionPane.showMessageDialog(null, level);
+				
+			}
+			if (task==6) {
+				int awww= JOptionPane.showOptionDialog(null,"Anything you'd like to do?", "Title", 0, JOptionPane.INFORMATION_MESSAGE, null,
+					new String[] {"Pet", "Walk","Feed", "Cuddle"}, null);
+				if (awww==0) {
+					level+=1.2;
+				}
+				if (awww==1) {
+					level+=2;
+				}
+				if (awww==2) {
+					level+=7;
+				}
+				if (awww==3) {
+					level+=-2;
+				}
+				JOptionPane.showMessageDialog(null, level);
+				
+			}
+			if (task==7) {
+				int awww= JOptionPane.showOptionDialog(null,"Anything you'd like to do?", "Title", 0, JOptionPane.INFORMATION_MESSAGE, null,
+					new String[] {"Pet", "Walk","Feed", "Cuddle"}, null);
+				if (awww==0) {
+					level+=.12;
+				}
+				if (awww==1) {
+					level+=.6;
+				}
+				if (awww==2) {
+					level+=.5;
+				}
+				if (awww==3) {
+					level+=0.5;
+				}
+				JOptionPane.showMessageDialog(null, level);
+				
+			}
+			if (task==8) {
+				int awww= JOptionPane.showOptionDialog(null,"Anything you'd like to do?", "Title", 0, JOptionPane.INFORMATION_MESSAGE, null,
+					new String[] {"Pet", "Walk","Feed", "Cuddle"}, null);
+				if (awww==0) {
+					level+=5;
+				}
+				if (awww==1) {
+					level+=6;
+				}
+				if (awww==2) {
+					level+=5;
+				}
+				if (awww==3) {
+					level+=4;
+				}
+				JOptionPane.showMessageDialog(null, level);
+				
+			}
+			if (task==9) {
+				int awww= JOptionPane.showOptionDialog(null,"Anything you'd like to do?", "Title", 0, JOptionPane.INFORMATION_MESSAGE, null,
+					new String[] {"Pet", "Walk","Feed", "Cuddle"}, null);
+				if (awww==0) {
+					level+=1.2;
+				}
+				if (awww==1) {
+					level+=6;
+				}
+				if (awww==2) {
+					level+=5;
+					JOptionPane.showMessageDialog(null, "Sorry mice :(");
+				}
+				if (awww==3) {
+					level+=4;
+				}
+				JOptionPane.showMessageDialog(null, level);
+				
+			}
+			if (task==10) {
+				int awww= JOptionPane.showOptionDialog(null,"Anything you'd like to do?", "Title", 0, JOptionPane.INFORMATION_MESSAGE, null,
+					new String[] {"Pet", "Walk","Feed", "Cuddle"}, null);
+				if (awww==0) {
+					level+=.1;
+				}
+				if (awww==1) {
+					level+=.6;
+				}
+				if (awww==2) {
+					level+=.5;
+				}
+				if (awww==3) {
+					level+=.4;
+				}
+				JOptionPane.showMessageDialog(null, level);
+				
+			}
+			if (task==11) {
+				int awww= JOptionPane.showOptionDialog(null,"Anything you'd like to do?", "Title", 0, JOptionPane.INFORMATION_MESSAGE, null,
+					new String[] {"Pet", "Walk","Feed", "Cuddle"}, null);
+				if (awww==0) {
+					level+=1.2;
+				}
+				if (awww==1) {
+					level+=6;
+				}
+				if (awww==2) {
+					level+=5;
+					JOptionPane.showMessageDialog(null, "sorry flies:(");
+				}
+				if (awww==3) {
+					level+=4;
+				}
+				JOptionPane.showMessageDialog(null, level);
+				
+			}
+			if (task==12) {
+				int awww= JOptionPane.showOptionDialog(null,"Anything you'd like to do?", "Title", 0, JOptionPane.INFORMATION_MESSAGE, null,
+					new String[] {"Pet", "Walk","Feed", "Cuddle"}, null);
+				if (awww==0) {
+					level+=5;
+				}
+				if (awww==1) {
+					level+=6;
+				}
+				if (awww==2) {
+					level+=5;
+				}
+				if (awww==3) {
+					level+=7;
 				}
 				JOptionPane.showMessageDialog(null, level);
 				
